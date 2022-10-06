@@ -67,3 +67,7 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/networkservicemesh/api => ./api
+
+replace github.com/networkservicemesh/sdk => ./sdk
